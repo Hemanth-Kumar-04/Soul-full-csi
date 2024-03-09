@@ -5,7 +5,6 @@ import Doctors from './Doctor/Doctors'
 const App = () => {
   return (
     <div>
-      <Consult />
       <Doctors/>
     </div>
   )
