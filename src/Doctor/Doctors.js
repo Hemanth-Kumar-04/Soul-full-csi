@@ -17,6 +17,7 @@ const Doctors = () => {
   return (
     <div className="Doctorsapp">
       <input
+       className='input'
         type="text"
         placeholder="Search by Area"
         value={searchTerm}
