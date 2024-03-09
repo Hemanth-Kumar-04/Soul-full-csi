@@ -1,0 +1,52 @@
+/* ImageTextSection.css */
+.image-text-section {
+    display: flex;
+    flex: 1;
+    flex-direction: column-reverse; /* On smaller screens, stack elements in reverse order */
+    justify-content: space-between;
+    align-items: center;
+    margin: 20px; /* Adjust margin as needed */
+  }
+  
+  .text-content {
+    max-width: 100%; /* Full width on small screens */
+  }
+  
+  .image-container {
+    width: 50%;
+    margin-top: 20px; /* Add some spacing between text and image */
+  }
+  .paragraph{
+    margin-top: -5%;
+    font-size: 1.5vw;
+  }
+  
+  img {
+    max-width: 100%;
+    height: auto;
+  }
+
+  .heading{
+    font-size: 3vw;
+  }
+  
+  /* Media query for larger screens (adjust breakpoint as needed) */
+  @media (min-width: 768px) {
+    .image-text-section {
+      flex-direction: row;
+    }
+  
+    .text-content {
+      max-width: 65%;
+    }
+    .paragraph{
+        margin-top: -5%;
+        font-size: 1vw;
+      }
+  
+    .image-container {      
+      margin-top: 0;
+      margin-left: 20px; /* Add some spacing between text and image */
+    }
+  }
+  
