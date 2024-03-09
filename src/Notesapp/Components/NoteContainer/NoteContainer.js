@@ -19,7 +19,7 @@ function NoteContainer(props) {
 
   return (
     <div className="note-container">
-      <h2>Notes</h2>
+      <h2>My Journal</h2>
       <div className="note-container_notes custom-scroll">
         {notes?.length > 0 ? (
           notes.map((item) => (
@@ -31,7 +31,7 @@ function NoteContainer(props) {
             />
           ))
         ) : (
-          <h3>No Notes present</h3>
+          <h3>No Journals to present</h3>
         )}
       </div>
     </div>
