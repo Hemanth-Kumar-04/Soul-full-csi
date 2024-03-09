@@ -4,12 +4,12 @@ import Image2 from './sections/Image2'
 import Image3 from './sections/Image3'
 import Footer from './sections/footer'
 import FirstYMH from './sections/FirstYMH'
-import SpeechSearch from './sections/SpeechSearch'
+import Chatbot from './sections/Chatbot'
 const Consult = () => {
   return (
     <div>
         <FirstYMH/>
-        <SpeechSearch/>
+        <Chatbot/>
         <YourmentalHealth/>
         <Image2/>
         <Image3/>
