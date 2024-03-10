@@ -8,7 +8,7 @@ function Navbar() {
         <h3>SoulFull</h3>
       </div>
       <div className="Navbar-right">
-        <Link to={{ pathname: "/" }}>Home</Link>
+        <a href="https://soul-full.vercel.app/">Home</a>
         <Link to={{ pathname: "/journal" }}>Journal</Link>
         <Link to={{ pathname: "/consult" }}>Consult</Link>
         <Link to={{ pathname: "/doctors" }}>Doctors</Link>
