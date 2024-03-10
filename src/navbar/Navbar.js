@@ -9,7 +9,7 @@ function Navbar() {
       </div>
       <div className="Navbar-right">
         <Link to={{ pathname: "/journal" }}>Journal</Link>
-        <Link to={{ pathname: "/consult" }}>Consult</Link>
+        <Link to={{ pathname: "/" }}>Consult</Link>
         <Link to={{ pathname: "/doctors" }}>Doctors</Link>
         <a href="#" className="login">
           Login{" "}
