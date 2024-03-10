@@ -1,0 +1,48 @@
+/* .Navbar-container {
+    overflow: hidden;
+    background-color: #ffffff;
+    display: flex;
+    width: max-content;    
+}
+
+.Navbar-container a {
+
+    text-decoration: none;
+    color: black;
+    float: left;
+    padding: 14px 20px 7px 10px ;
+}
+
+.Navbar-container .Navbar-Login{
+    justify-content: end;
+} */
+
+
+.Navbar-container {
+    display: flex;
+    align-items: center; 
+    justify-content: space-between; 
+    background-color: #ffffff;
+    padding: 10px 20px;
+}
+
+.Navbar-container a {
+    color: #000000;
+    text-decoration: none;
+    padding: 10px;
+    font-size: 18px;
+}
+
+.Navbar-container .Navbar-left {
+    color: #1C32FF;
+    margin-left: 30px;
+    font-size: 24px;
+}
+.Navbar-container .Navbar-right {
+    padding-right: 100px;
+}
+
+.login{
+    margin-left: 50px;
+    font-weight: bold;
+}
